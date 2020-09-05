@@ -40,7 +40,6 @@ class Solution {
             // Here we go, check if repeated string is same as
             // original string.
             $sub = substr($s, 0, $i);
-            
             $repeats = $size / $i;
             $created = str_repeat($sub, $repeats);
             if ($created === $s) {
