@@ -24,7 +24,7 @@ class Solution {
         
         // No reason to look for substrings longer than half
         // the size of the original string as there is no way
-        // that would make a repition pattern.
+        // that would make a repeated pattern.
         $max = (int)($size / 2);
         
         for ($i = $max; $i > 0; $i--) {
